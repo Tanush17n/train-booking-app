@@ -64,6 +64,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port":4209
+          },
           "configurations": {
             "production": {
               "buildTarget": "train_booking_app:build:production"
